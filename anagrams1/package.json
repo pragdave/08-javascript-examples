@@ -1,0 +1,12 @@
+{
+	"type": "module",
+	"scripts": {
+		"test": "ava"
+	},
+	"devDependencies": {
+		"ava": "^3.5.0"
+	},
+	"dependencies": {
+		"colors": "^1.4.0"
+	}
+}
