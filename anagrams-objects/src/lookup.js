@@ -1,6 +1,5 @@
 
 export default class Lookup {
-
   constructor(dictionary) {
     this.signatures = new Map
     dictionary.forEach(word => this.addSignatureForWord(word))
@@ -10,7 +9,6 @@ export default class Lookup {
     let signature = signatureOf(word)
     return this.signatures.get(signature)
   }
-
 
   addSignatureForWord(word) {
     let signature = signatureOf(word)
